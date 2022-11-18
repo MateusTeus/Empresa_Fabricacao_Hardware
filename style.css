@@ -11,6 +11,15 @@
 
     
 }
+.logo{
+width: 3%;
+
+position: relative;
+bottom: em;
+
+}
+
+
 
 .tema_pag{
     font-size: 2.5em; cursor: pointer;
@@ -137,6 +146,19 @@ body{
     
    
 }
+
+.main p span{
+    animation-name: mudanca-cor;
+    animation-duration: 4s;  
+    animation-iteration-count: infinite;
+    display: inline;
+}
+
+@keyframes mudanca-cor {
+    from {color:#d982ff}
+    to {color: #8c48f8}
+    }
+    
 .separacao2{
     background: #d9ffe8;
     height: 10vw;
@@ -161,6 +183,7 @@ body{
     justify-content: flex-start;
     font-size: 1.5em;
     padding-top: 7rem;
+    text-align: justify;
 }
 
 
@@ -200,11 +223,13 @@ body{
 
 .container_produtos{
     background: lawngreen;
-    height: 70vh;
-    margin: 0% 4% 0 4%;
+    min-height: 75vh;
+    height: auto;
+    margin: 0% 4% 0% 4%;
     border-radius: 2em;
     padding: 0 2em 0em 2em;
     border-bottom: solid #480ca8 1.3em;
+   
     
     
 }
@@ -219,6 +244,7 @@ body{
 .texto_produto{
     margin: 10% 4% 4% 4%;
     font: 1.5em sans-serif;
+    text-align: center;
 }
 
 
@@ -226,7 +252,8 @@ body{
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 2%;
+    
 
 }  
 
@@ -286,13 +313,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10em;
+    margin-top: 5em;
     width: 100%;
 
 }
 
 .sobre_nos h2{
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     text-align: center;
 }
 .container_sobre_nos{
@@ -300,13 +327,15 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10em;
+    margin-bottom: 1em;
 }
 
 .container_sobre_nos .titulo{
     color: white;
-    height: 5vh;
-    width: 80vw;
+    min-height: 5vh;
+    height: auto;
+    min-width: 80vw;
+    width: auto;
     border-radius: 10px;
     align-items: center;
     display: flex;
@@ -317,9 +346,10 @@ body{
 .container_sobre_nos p{
     color: white;
     margin-top: 1em;
-    min-height: 20em;
+    min-height: 10em;
     height: auto;
     width: 80vw;
+   
     border-radius: 10px;
     padding: 1em;
     display: flex;
@@ -335,7 +365,12 @@ footer{
        
 
  
-    height: 20vw;
+
+}
+
+.footer_produto{
+
+
 }
 
 .container-rede-cs{
@@ -351,6 +386,7 @@ footer{
 .social{
     font-size: 2em;
     margin-top: 3.1em;
+    cursor: pointer;
 }
 
 .container-info{
@@ -359,6 +395,7 @@ footer{
     gap: 1.2em;
     justify-content: center;
     margin-top: 2em;
+    cursor: pointer;
 }
 .container-privacidade{
     display: flex;
@@ -366,6 +403,7 @@ footer{
     gap: 1.2em;
     justify-content: center;
     margin-top: 0.5em ;
+    cursor: pointer;
 }
 
 footer p{
@@ -386,7 +424,11 @@ footer p{
 
 
 
-
+.secao1{
+    background: #d9ffe8;
+    
+    padding-bottom: 10em;
+}
 
 
 
@@ -398,6 +440,11 @@ footer p{
   
     margin-left: 5%;
     border-radius: 20px;
+   
+  
+    
+   
+ 
 
 }
 
@@ -407,8 +454,8 @@ footer p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 1%;
+   padding-bottom: 1%;
+    padding-top: 10%;
     text-align: center;
 
 }
@@ -449,12 +496,14 @@ footer p{
     background: lawngreen;
     min-height: 70vh;
     height: auto;
-    margin: 10% 4% 0 4%;
+    margin: 0% 4% 0 4%;
     border-radius: 2em;
     padding: 0 2em 0em 2em;
-    border-bottom: solid #480ca8 1.3em;
+    border-bottom: solid #480ca8 1.3em; 
+    padding-bottom: 5em;
   
     
+  
     
     
     
@@ -493,7 +542,7 @@ footer p{
     border-radius: 10px;
     text-align: center;
     height: auto;
-   
+    
 }
 
 .preco_venda{
@@ -518,15 +567,29 @@ footer p{
 }
 
 .separacao{
-    margin-top: 10em;
+   
     width: 100%;
     height: 4em;
     background:purple;
+    /* margin-top: 10em;
+    margin-bottom: 10em; */
+   
+    
 }
 
 .descricao_produto_venda{
 
     
+}
+#id_main{
+    background: #d9ffe8;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+h3{
+    text-align: center;
+    margin-top: 1em;
 }
 
 
@@ -549,6 +612,13 @@ footer p{
     
         
     }
+    .logo{
+        width: 10%;
+        
+        position: relative;
+        bottom: em;
+        
+        }
     
     .tema_pag{
         font-size: 2.5em; cursor: pointer;
@@ -560,7 +630,7 @@ footer p{
     
        
     }
-    
+
     .headerBorda{
         background: #480ca8;
         width: 100%;
@@ -908,6 +978,7 @@ footer p{
     .social{
         font-size: 2em;
         margin-top: 3.1em;
+        cursor: pointer;
     }
     
     .container-info{
@@ -916,6 +987,7 @@ footer p{
         gap: 1.2em;
         justify-content: center;
         margin-top: 2em;
+        cursor: pointer;
     }
     .container-privacidade{
         display: flex;
@@ -923,6 +995,7 @@ footer p{
         gap: 1.2em;
         justify-content: center;
         margin-top: 0.5em ;
+        cursor: pointer;
     }
     
     footer p{
@@ -945,7 +1018,17 @@ footer p{
     
     
     
-    
+    .secao1{
+        background: #d9ffe8;
+        padding-top: 3em;
+        padding-bottom: 10em;
+    }
+    #id_main{
+        background: #d9ffe8;
+        padding-top: 10em;
+        padding-bottom: 10em;
+    }
+
     
     
     .container_inicial_setup{
@@ -958,6 +1041,7 @@ footer p{
         border-radius: 20px;
         display: flex;
         flex-direction: column;
+       
     
      
     
@@ -968,7 +1052,7 @@ footer p{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 20%;
+      
         margin-bottom: 1%;
         text-align: center;
     
@@ -1011,10 +1095,11 @@ footer p{
         background: lawngreen;
         min-height: 70vh;
         height: auto;
-        margin: 10% 4% 0 4%;
+        margin: 1% 4% 0 4%;
         border-radius: 2em;
         padding: 0 2em 0em 2em;
         border-bottom: solid #480ca8 1.3em;
+        padding-bottom: 5em;
       
         
         
@@ -1056,6 +1141,7 @@ footer p{
         border-radius: 10px;
         text-align: center;
         height: auto;
+
        
     }
     
@@ -1081,10 +1167,11 @@ footer p{
     }
     
     .separacao{
-        margin-top: 10em;
+      
         width: 100%;
         height: 4em;
         background:purple;
+        
     }
     
     .descricao_produto_venda{
