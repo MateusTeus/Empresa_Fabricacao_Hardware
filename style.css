@@ -367,12 +367,6 @@ footer{
  
 
 }
-
-.footer_produto{
-
-
-}
-
 .container-rede-cs{
 
     display: flex;
@@ -577,10 +571,7 @@ footer p{
     
 }
 
-.descricao_produto_venda{
 
-    
-}
 #id_main{
     background: #d9ffe8;
     padding-top: 10em;
@@ -1003,6 +994,7 @@ h3{
     }
     
     
+
     
     
     
@@ -1174,11 +1166,7 @@ h3{
         
     }
     
-    .descricao_produto_venda{
-    
-        
-    }
-    
+ 
   
     
     
